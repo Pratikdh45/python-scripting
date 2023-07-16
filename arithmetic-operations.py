@@ -1,11 +1,11 @@
-# x = int(input( "Please enter valure for x="))
-# y = int(input( "Please enter valure for y="))
+x = int(input( "Please enter valure for x="))
+y = int(input( "Please enter valure for y="))
 
-# print (x+y)
-# print (x-y)
-# print (x/y)
-# print (x*y)
-# print (x%y)
+print (x+y)
+print (x-y)
+print (x/y)
+print (x*y)
+print (x%y)
 
 
 
@@ -31,23 +31,23 @@ print (typea)
 
 # String slicing
 
-# name = 'Pratik'
-# name1 = "Akshay"
-# name2 = ''' Pratik 
-# and Akshay both my names '''
-# print (name[3:5])
-# print (name1[2:5])
-# print (name2[1:5])
+name = 'Pratik'
+name1 = "Akshay"
+name2 = ''' Pratik 
+and Akshay both my names '''
+print (name[3:5])
+print (name1[2:5])
+print (name2[1:5])
 
 #  print perticular number character in the variable 
 
-# name = 'Pratik'
-# name1 = "Akshay"
-# name2 = ''' Pratik 
-# and Akshay both my names '''
-# print (name[3])
-# print (name1[5])
-# print (name2[10])
+name = 'Pratik'
+name1 = "Akshay"
+name2 = ''' Pratik 
+and Akshay both my names '''
+print (name[3])
+print (name1[5])
+print (name2[10])
 
 # Stripping
 name = "        Pratik, Milind, Dhumane"
@@ -75,21 +75,21 @@ print (temp)
 # Python Collection
 # 1. List
 lst = [61,2,3,4,6,45]
-# listing = type(lst)
+listing = type(lst)
 lst[2] = 46
 listing = lst[2]
-# lst.append(1945)
-# lst.insert(3,1945)
-# lst.pop()
+lst.append(1945)
+lst.insert(3,1945)
+lst.pop()
 del lst[4]
 listing = lst
-# listing = lst [2:5]
+listing = lst [2:5]
 print(listing)
 
 #2. tuple
 a = ("Pratik", "Akshay", "Dhumane")
 var = a
-# var = type(a)
+var = type(a)
 a = list(a)
 a[2] = "Milind"
 print(var)
